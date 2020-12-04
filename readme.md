@@ -11,6 +11,8 @@ Principles of computer architecture are introduced, including instruction and da
 Required Resources
 ------------------
 
+- Essentials of Computer Architecture. Comer, Douglas. ISBN: 9780131491793
+
 Optional Resources
 ------------------
 
