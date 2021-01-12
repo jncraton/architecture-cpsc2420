@@ -41,7 +41,7 @@ Students will complete regular labs using various data science technologies. Stu
 
 ### Quizzes
 
-Regular quizzes will be given covering the lecture material. Students will have two attempts on each quiz, one at the start of class and one at the end. Only the highest score will be kept. The lowest three quiz scores from the semester will not count toward the final grade.
+Regular quizzes will be given covering the lecture material. Students will have two attempts on each quiz, one at the start of class and one at the end. Only the highest score will be kept. The lowest score from the semester will not count toward the final grade.
 
 ### Exams
 
