@@ -21,9 +21,9 @@ Course objectives
 
 Upon completion of this course, students will be able to:
 
-- Diagram the operating system stack
 - Convert raw binary data to computer instructions or data values
 - Describe the design and purpose of the memory hierarchy
+- Diagram the operating system stack
 - Embed assembly language in programs
 
 Course Overview
