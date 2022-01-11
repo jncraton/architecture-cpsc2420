@@ -37,11 +37,11 @@ Students will complete several projects and/or presentations over the course of 
 
 ### Labs and Homework
 
-Students will complete regular labs using various data science technologies. Students will also complete homework assignments covering various topics from the course text.
+Students will complete regular labs using various technologies. Labs that include code that does not compile or parse correctly will be given zero credit.
 
 ### Quizzes
 
-Regular quizzes will be given covering the lecture material. Students will have two attempts on each quiz, one at the start of class and one at the end. Only the highest score will be kept. The lowest score from the semester will not count toward the final grade.
+Regular quizzes will be given covering the lecture material. Students will have two attempts on each quiz, one at the start of class and one at the end. Only the highest score will be kept. The lowest score from the semester will not count toward the final grade. Students will also complete homework assignments covering various topics from the course text.
 
 ### Exams
 
