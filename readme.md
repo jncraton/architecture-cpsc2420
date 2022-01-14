@@ -33,7 +33,7 @@ Please refer to Canvas for a list of assignments and detailed grading breakdown.
 
 ### Presentations
 
-Students will complete several projects and/or presentations over the course of the semester sharing knowledge of specific areas of interest with their peers.
+Students will complete one presentation over the course of the semester sharing knowledge of specific areas of interest with their peers.
 
 ### Labs
 
