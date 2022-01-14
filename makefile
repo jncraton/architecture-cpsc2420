@@ -45,7 +45,7 @@ lectures/reveal.js:
 clean:
 	rm -rf pandoc*
 	rm -f index.html index.md syllabus*
-	rm -rf lectures/*.html lectures/all.md
+	rm -rf lectures/*.html lectures/all.md lectures/reveal.js
 	find lectures -name "*.html" -exec rm -f {} \;
 	rm -rf figures
 	rm -rf __pycache__
