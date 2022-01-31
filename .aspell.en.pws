@@ -1,13 +1,15 @@
-personal_ws-1.1 en 46 
+personal_ws-1.1 en 51 
 ALU
 BJT
 CISC
 CPSC
 CPUs
 Callees
+Cerebras
 Computerphile
 Coprocessor
 Craton
+DeMorgan's
 EPROM
 Endianness
 IC
@@ -27,12 +29,15 @@ Selectable
 Spotify
 TLB
 Von
+WSE
 addi
 bitwise
 computable
 endian
+iff
 lookaside
 lookups
+lor
 macrocode
 multiprogramming
 nearline
