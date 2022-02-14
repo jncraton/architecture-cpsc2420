@@ -1,3 +1,5 @@
+Lab questions?
+
 4 Processors
 ============
 
@@ -18,7 +20,7 @@ Von Neumann Architecture
 Processor
 ---------
 
-- Digital device the performs computation involving multiple steps
+- Digital device that performs computation involving multiple steps
 - Not complete computers
 - Core building block of a computer
 - Can be very basic or very complex
@@ -34,7 +36,7 @@ Processor Types
 Fixed Logic
 -----------
 
-- Can only perform one operation
+- Can only perform one sequence of operation
 - Graphics pipeline
 - Sound system
 - JPEG compression
@@ -42,14 +44,14 @@ Fixed Logic
 Selectable Logic
 ----------------
 
-- Can perform one of several operations
+- Can perform one of several sequences of operations
 - Operations are defined at the time the processor is manufactured
 
 Parameterized Logic
 -------------------
 
-- Computer pre-determined functions
-- Provide additional parameters that adjust behavior
+- Computes pre-determined functions
+- Provides additional parameters that adjust behavior
 - JPEG compressor with tunable quality
 
 Programmable Logic
@@ -87,7 +89,7 @@ Computational Engine
 --------------------
 
 - Executes operations
-- `add`, `subtract`, `and`, `aes`, `dct`, etc
+- `add`, `subtract`, `xor`, `aes`, `dct`, etc
 
 Local Data Storage
 ------------------
