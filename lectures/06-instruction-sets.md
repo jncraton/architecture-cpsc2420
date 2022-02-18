@@ -1,4 +1,4 @@
-Exam 2/26 - No lab that day
+Exam 2/25 - No lab that day
 
 5 Processor Types and Instruction Sets
 =====================================
