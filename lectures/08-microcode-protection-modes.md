@@ -1,3 +1,5 @@
+- Midterm grades
+
 7 CPUs: Microcode, Protection, Modes
 ====================================
 
