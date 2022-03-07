@@ -51,8 +51,8 @@ Device I/O
 Operating System
 ----------------
 
-- The OS needs full control of the system at time, so it will change modes as needed
-- User programs should not have full control, so if they attempt to access memory 
+- The OS needs full control of the system, so it will change modes as needed
+- User programs should not have full control, so they operate in a restricted mode they cannot change
 
 Mode register
 -------------
