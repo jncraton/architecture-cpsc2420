@@ -1,5 +1,3 @@
-Exam discussion
-
 7 CPUs: Microcode, Protection, Modes
 ====================================
 
