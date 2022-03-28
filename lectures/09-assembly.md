@@ -69,7 +69,7 @@ mov (r2),r1
 Conditional Paradigm
 --------------------
 
-- Assembly typically has not `if` statement
+- Assembly typically has no `if` statement
 - How can we emulate this behavior?
 
 ---
