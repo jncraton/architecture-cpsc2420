@@ -1,3 +1,5 @@
+Lab questions?
+
 9 Memory and Storage
 ====================
 
@@ -86,6 +88,10 @@ Memory Hierarchy
 ---
 
 ![Memory Hierarchy](https://upload.wikimedia.org/wikipedia/commons/0/0c/ComputerMemoryHierarchy.svg){height=540px}
+
+---
+
+![Interactive Latency over Time](https://colin-scott.github.io/personal_website/research/interactive_latency.html)
 
 ---
 
