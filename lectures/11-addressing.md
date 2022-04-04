@@ -22,10 +22,6 @@ Static RAM
 
 ![SR latch using NOR gates](https://upload.wikimedia.org/wikipedia/commons/5/53/RS_Flip-flop_%28NOR%29.svg){height=540px}
 
----
-
-![SR latch using transistors](https://upload.wikimedia.org/wikipedia/commons/a/a5/Transistor_Bistable_interactive_animated-en.svg)
-
 SRAM Usage
 ----------
 
@@ -103,7 +99,7 @@ Byte addressing
 ---------------
 
 - Programmers often want to access specific bytes
-- A memory controller can hand retrieving the appropriate word from memory and then the correct byte from the word
+- A memory controller can handle retrieving the appropriate word from memory and then the correct byte from the word
 
 ----
 
