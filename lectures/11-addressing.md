@@ -1,8 +1,5 @@
-Lab questions?
-
----
-
-Presentations
+- Presentations
+- Lab questions?
 
 10 Physical Memory and Addressing
 =================================
