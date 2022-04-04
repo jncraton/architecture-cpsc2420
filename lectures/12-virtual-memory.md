@@ -1,6 +1,3 @@
-- Project questions?
-- ISA?
-
 11 Virtual Memory
 =================
 
