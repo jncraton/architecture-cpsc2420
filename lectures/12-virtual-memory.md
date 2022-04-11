@@ -167,10 +167,11 @@ Buffer Overflows
 
 ---
 
-![Stack](https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Stack_Overflow_3.png/419px-Stack_Overflow_3.png)
+![Stack](https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Stack_Overflow_3.png/419px-Stack_Overflow_3.png){height=540px}
+
 ---
 
-![Stack Overflow](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Stack_Overflow_4.png/507px-Stack_Overflow_4.png)
+![Stack Overflow](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Stack_Overflow_4.png/507px-Stack_Overflow_4.png){height=540px}
 
 NX Bit
 ------
