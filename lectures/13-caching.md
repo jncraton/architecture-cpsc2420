@@ -1,5 +1,3 @@
-Lab Questions?
-
 12 Caching
 ==========
 
