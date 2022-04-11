@@ -99,7 +99,7 @@ Data Protections
 ----------------
 
 - Virtual memory can be used to secure program data
-- Some pages can be mark as execute only or read-only
+- Some pages can be marked as execute only or read-only
 
 ---
 
@@ -137,7 +137,7 @@ Paging
 Caching
 -------
 
-- Page table lookups can be slow (10 - 100 clock cycles)
+- Page table lookups can be slow
 - We can cache lookups to improve performance of repeated accesses
 - This cache is called the translation lookaside buffer (TLB)
 
