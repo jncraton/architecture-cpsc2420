@@ -200,7 +200,7 @@ Multiple buses
 Unified Memory
 --------------
 
-- The system uses on bus
+- The system uses one bus
 - Devices and memory share a single address space
 - From the CPUs perspective, access a device and accessing memory are the same operation
 
