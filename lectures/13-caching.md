@@ -84,6 +84,7 @@ Fully Associative Cache
 
 - Does not use `index`
 - All cache lines live in one set
+- Requires search to find cache line
 - Complex and slow
 - Least vulnerable to conflict misses
 
@@ -95,7 +96,9 @@ Set Associative Cache
 ---------------------
 
 - Multiple cache lines reside in sets
-- Provides complexity/efficiency tradeoff
+- Provides complexity/efficiency trade off
+
+---
 
 ![Set Associative](https://upload.wikimedia.org/wikipedia/commons/7/71/Set-Associative_Cache_Snehal_Img.png)
 
