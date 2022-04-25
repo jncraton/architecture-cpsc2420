@@ -60,6 +60,45 @@ Least recently used
 - An LRU eviction strategy is simple to understand
 - When a new item needs to be added to a cache, we remove the oldest item in terms of access time
 
+Implementation
+--------------
+
+- Break address into `tag`, `index`, and `offset`
+- Tag is stored to confirm full address
+- Index is used to retrieve cache set
+- Offset is used to retrieve word from cache line
+
+Direct Mapped Cache
+-------------------
+
+- One cache set per index
+- Simple
+- Most vulnerable to conflict misses
+
+---
+
+![Direct Mapped](https://upload.wikimedia.org/wikipedia/commons/a/ab/Direct-Mapped_Cache_Snehal_Img.png)
+
+Fully Associative Cache
+-----------------------
+
+- Does not use `index`
+- All cache lines live in one set
+- Complex and slow
+- Least vulnerable to conflict misses
+
+---
+
+![Fully Associative](https://upload.wikimedia.org/wikipedia/commons/9/9c/Fully-Associative_Cache_Snehal_Img.png)
+
+Set Associative Cache
+---------------------
+
+- Multiple cache lines reside in sets
+- Provides complexity/efficiency tradeoff
+
+![Set Associative](https://upload.wikimedia.org/wikipedia/commons/7/71/Set-Associative_Cache_Snehal_Img.png)
+
 13 I/O
 ======
 
