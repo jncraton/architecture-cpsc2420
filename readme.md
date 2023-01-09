@@ -11,7 +11,7 @@ Principles of computer architecture are introduced, including instruction and da
 Required Resources
 ------------------
 
-- None
+- [ISO C Standard (Draft is free)](http://www.open-std.org/jtc1/sc22/wg14/www/docs/n1570.pdf)
 
 Optional Resources
 ------------------
