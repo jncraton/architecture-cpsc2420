@@ -1,7 +1,8 @@
-personal_ws-1.1 en 51 
+personal_ws-1.1 en 63 
 ALU
 BJT
 CISC
+COVID
 CPSC
 CPUs
 Callees
@@ -14,6 +15,7 @@ EPROM
 Endianness
 IC
 ISA
+KACE
 LRU
 Lookups
 MMU
@@ -22,24 +24,30 @@ Microsequencer
 NX
 Nand
 Neumann
+OSBoxes
 PCI
+QEMU
 SRAM
 SSD
 Selectable
 Spotify
 TLB
+VM
+VirtualBox
 Von
 WSE
 addi
 bitwise
 computable
 endian
+fidelitas
 iff
 lookaside
 lookups
 lor
 macrocode
 multiprogramming
+natively
 nearline
 ns
 pinout
@@ -48,5 +56,9 @@ px
 roundtrip
 struct
 tunable
+utilitas
+veritas
+virt
+virtualized
 wifi
 xFFFF
