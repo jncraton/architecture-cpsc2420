@@ -11,9 +11,10 @@ Principles of computer architecture are introduced, including instruction and da
 Required Resources
 ------------------
 
-- [ISO C Standard (free download)](http://www.open-std.org/jtc1/sc22/wg14/www/docs/n1570.pdf)
+- [C Programming (Free)](https://en.wikibooks.org/wiki/C_Programming)
 - [RISC-V Instruction Set Manual (free download)](https://github.com/riscv/riscv-isa-manual/releases/download/Ratified-IMAFDQC/riscv-spec-20191213.pdf)
 - [Saylor Academy Computer Architecture (free course materials)](https://learn.saylor.org/course/view.php?id=71)
+- [ISO C Standard (free download)](http://www.open-std.org/jtc1/sc22/wg14/www/docs/n1570.pdf)
 
 Optional Resources
 ------------------
