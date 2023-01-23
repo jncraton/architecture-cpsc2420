@@ -46,7 +46,7 @@ Input A  Output Q
 ---
 
 
-![Not Gate](https://upload.wikimedia.org/wikipedia/commons/6/60/NOT_ANSI_Labelled.svg)
+![Not Gate](https://upload.wikimedia.org/wikipedia/commons/6/60/NOT_ANSI_Labelled.svg){height=240px}
 
 
 And Truth Table
@@ -61,7 +61,7 @@ A   B   Q
 
 ---
 
-![And Gate](https://upload.wikimedia.org/wikipedia/commons/b/b9/AND_ANSI_Labelled.svg)
+![And Gate](https://upload.wikimedia.org/wikipedia/commons/b/b9/AND_ANSI_Labelled.svg){height=240px}
 
 Or Truth Table
 --------------
@@ -75,7 +75,7 @@ A   B   Q
 
 ---
 
-![Or Gate](https://upload.wikimedia.org/wikipedia/commons/1/16/OR_ANSI_Labelled.svg)
+![Or Gate](https://upload.wikimedia.org/wikipedia/commons/1/16/OR_ANSI_Labelled.svg){height=240px}
 
 
 Nor Truth Table
@@ -90,7 +90,7 @@ A   B   Q
 
 ---
 
-![Nor Gate](https://upload.wikimedia.org/wikipedia/commons/c/c6/NOR_ANSI_Labelled.svg)
+![Nor Gate](https://upload.wikimedia.org/wikipedia/commons/c/c6/NOR_ANSI_Labelled.svg){height=240px}
 
 Nand Truth Table
 --------------
@@ -104,7 +104,7 @@ A   B   Q
 
 ---
 
-![Nand Gate](https://upload.wikimedia.org/wikipedia/commons/e/e6/NAND_ANSI_Labelled.svg)
+![Nand Gate](https://upload.wikimedia.org/wikipedia/commons/e/e6/NAND_ANSI_Labelled.svg){height=240px}
 
 Fundamental Gates
 -----------------
@@ -136,7 +136,7 @@ Maintaining State
 
 ---
 
-![SR Latch](https://upload.wikimedia.org/wikipedia/commons/9/92/SR_Flip-flop_Diagram.svg)
+![SR Latch](https://upload.wikimedia.org/wikipedia/commons/9/92/SR_Flip-flop_Diagram.svg){height=240px}
 
 Clocks
 ------
