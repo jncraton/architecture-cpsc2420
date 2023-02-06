@@ -72,7 +72,7 @@ Scientific Notation
 
 - $6.022 \times 10^{23}$
 - Values are represented by a *mantissa* and *exponent*
-- $mantissa \times 2^{exponent}$
+- $mantissa \times 10^{exponent}$
 
 Floating Point
 --------------
