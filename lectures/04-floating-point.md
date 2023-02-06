@@ -79,9 +79,6 @@ Floating Point
 
 - Binary representation
 - Sign represented explicitly
-- Normalized to remove leading zeroes in mantissa
-- A normalized mantissa will always start with 1, so the leading bit can be dropped
-- The exponent is biased to allow negative exponents
 
 Scientific Notation in Binary
 -----------------------------
@@ -97,6 +94,7 @@ IEEE Floating Point
 - Next 8 bits used for exponent
     - Raw value is biased by -127
 - Final 23 bits used for mantissa
+- A normalized mantissa will always start with 1, so the leading bit can be dropped
 
 ---
 
@@ -114,6 +112,15 @@ Floating Point Range
 
 - Floating point numbers can occupy a range greater than a similarly sized integer with a loss of precision
 - [Example](https://repl.it/@jncraton/max-int-floating-point)
+
+Special Floating Point Values
+-----------------------------
+
+- +/- zero are representable
+- +/- infinity are representable
+    - All exponent bits set, mantissa unset
+- NaN is representable
+    - All exponent bits set, all mantissa bits set
 
 Data Aggregates
 ---------------
