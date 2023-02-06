@@ -72,6 +72,7 @@ Scientific Notation
 
 - $6.022 \times 10^{23}$
 - Values are represented by a *mantissa* and *exponent*
+- $mantissa \times 2^{exponent}$
 
 Floating Point
 --------------
@@ -82,9 +83,31 @@ Floating Point
 - A normalized mantissa will always start with 1, so the leading bit can be dropped
 - The exponent is biased to allow negative exponents
 
+Scientific Notation in Binary
+-----------------------------
+
+- $mantissa \times 2^{exponent}$
+- For example: $1.01 \times 2^{-3}$
+
+
+IEEE Floating Point
+-------------------
+
+- First bit used for sign
+- Next 8 bits used for exponent
+    - Raw value is biased by -127
+- Final 23 bits used for mantissa
+
 ---
 
-![IEEE Floating Point](https://upload.wikimedia.org/wikipedia/commons/d/d2/Float_example.svg){height=128px}
+![IEEE Floating Point Example](https://upload.wikimedia.org/wikipedia/commons/d/d2/Float_example.svg){height=128px}
+
+- Raw mantissa is 0b01
+    - Prepending the implicit 1 gives 1.01
+- Unbiased exponent is 0b01111100 (124)
+    - Adding the bias (-127) gives -3
+- Shifting mantissa by exponent gives 0.00101
+- 0.00101 in binary is 0.15625 in decimal
 
 Floating Point Range
 --------------------
@@ -96,3 +119,15 @@ Data Aggregates
 ---------------
 
 - We can combine multiple integers, floats, and characters into larger data structures
+
+---
+
+```c
+typedef struct {
+  char name[16];
+  float x;
+  float y;
+  float z;
+  int hp;
+} player;
+```
