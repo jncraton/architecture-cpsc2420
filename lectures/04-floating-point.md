@@ -57,7 +57,7 @@ Fractional Numbers
 
 - How can we represent fractional numbers?
 - We could simply assign a decimal point location to integers
-- A Fixed point approach limits space and precision when dealing with large and small numbers
+- A fixed point approach limits space and precision when dealing with large and small numbers
 
 Floating Point
 --------------
