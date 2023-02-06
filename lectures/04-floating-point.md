@@ -116,8 +116,9 @@ Floating Point Range
 Special Floating Point Values
 -----------------------------
 
-- +/- zero are representable
-- +/- infinity are representable
+- Zero (+/-) is representable
+    - All exponent bits unset, mantissa unset
+- Infinity (+/-) is representable
     - All exponent bits set, mantissa unset
 - NaN is representable
     - All exponent bits set, all mantissa bits set
