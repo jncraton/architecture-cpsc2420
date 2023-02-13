@@ -1,5 +1,4 @@
 - Lab questions?
-- Preferences for virtual or face-to-face presentations
 
 4 Processors
 ============
