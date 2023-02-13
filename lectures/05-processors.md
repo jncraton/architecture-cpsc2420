@@ -9,6 +9,14 @@ Von Neumann Architecture
 - Architecture used by almost all modern computers
 - A *stored program* resides in memory and is executed by a *processor*
 
+Components
+----------
+
+- A processing unit with ALU and registers
+- A control unit with program counter and instruction register
+- Memory storing instructions and data
+- Input and output mechanisms
+
 ---
 
 ![Von Neumann Architecture](https://upload.wikimedia.org/wikipedia/commons/e/e5/Von_Neumann_Architecture.svg)
@@ -36,8 +44,8 @@ Processor Types
 Fixed Logic
 -----------
 
-- Can only perform one sequence of operation
-- Graphics pipeline
+- Can only perform one sequence of operations
+- Fixed graphics pipeline
 - Sound system
 - JPEG compression
 
@@ -77,7 +85,7 @@ Central Units
 
 ---
 
-![Major Units](media/4-3.png)
+![Major Units](media/4-3.png){height=540px}
 
 Controller
 ----------
