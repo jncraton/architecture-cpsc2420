@@ -176,11 +176,11 @@ Stalls
 
 ---
 
-![Normal pipeline](https://upload.wikimedia.org/wikipedia/commons/c/cb/Pipeline%2C_4_stage.svg){height=540px}
+![Full pipeline](https://upload.wikimedia.org/wikipedia/commons/c/cb/Pipeline%2C_4_stage.svg){height=540px}
 
 ---
 
-![Pipeline stalled addressed with bubble](https://upload.wikimedia.org/wikipedia/commons/6/67/Pipeline%2C_4_stage_with_bubble.svg){height=540px}
+![Pipeline stall addressed with bubble](https://upload.wikimedia.org/wikipedia/commons/6/67/Pipeline%2C_4_stage_with_bubble.svg){height=540px}
 
 ---
 
