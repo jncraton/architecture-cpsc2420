@@ -1,6 +1,6 @@
-- Exam 2/25 - No lab that day
+- Exam 3/3 - No lab that day
 - Review assignment posted
-- Mask optional policy
+- Presentation Dates
 - Lab questions?
 
 5 Processor Types and Instruction Sets
