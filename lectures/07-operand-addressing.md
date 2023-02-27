@@ -1,4 +1,5 @@
 - Lab questions?
+- Exam Friday
 
 6 Operand Addressing and Instruction Representation
 ===================================================
