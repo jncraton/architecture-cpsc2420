@@ -27,9 +27,9 @@ Course objectives
 Upon completion of this course, students will be able to:
 
 - Convert raw binary data to computer instructions or data values
+- Explain the fetch-execute cycle and the common functional units of a CPU
 - Describe the design and purpose of the memory hierarchy
-- Diagram the operating system stack
-- Embed assembly language in programs
+- Create small assembly language programs
 
 Course Overview
 ---------------
