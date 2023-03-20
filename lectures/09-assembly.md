@@ -33,7 +33,7 @@ Assembly language
 -----------------
 
 - Family of languages that translate directly to machine instructions
-- Different hardware architectures will have different assembler language
+- Different hardware architectures will have different assembly language
 - Multiple flavors of assembly language may be used with the same hardware
 
 Syntax
