@@ -91,7 +91,7 @@ Memory Hierarchy
 
 ---
 
-![Interactive Latency over Time](https://colin-scott.github.io/personal_website/research/interactive_latency.html)
+[Interactive Latency over Time](https://colin-scott.github.io/personal_website/research/interactive_latency.html)
 
 ---
 
