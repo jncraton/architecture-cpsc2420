@@ -176,5 +176,5 @@ Buffer Overflows
 NX Bit
 ------
 
-- Modern CPUs has a feature that allows memory pages to be marked as not being executable to make certain classes of attacks harder to exploit.
+- Modern CPUs have a feature that allows memory pages to be marked as not being executable to make certain classes of attacks harder to exploit.
 
