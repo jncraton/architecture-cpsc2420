@@ -103,6 +103,10 @@ Data Protections
 
 ---
 
+![Process Memory](https://upload.wikimedia.org/wikipedia/commons/6/6e/Virtual_memory.svg){height=540px}
+
+---
+
 ![Protection Rings](https://upload.wikimedia.org/wikipedia/commons/2/2f/Priv_rings.svg){height=540px}
 
 Partitions
@@ -143,7 +147,7 @@ Caching
 
 ---
 
-![TLB Operation](https://upload.wikimedia.org/wikipedia/commons/6/6e/Translation_Lookaside_Buffer.png)
+![TLB Mapping Pages to Frames](https://upload.wikimedia.org/wikipedia/commons/6/6e/Translation_Lookaside_Buffer.png)
 
 Demand Paging
 -------------
@@ -171,7 +175,7 @@ Buffer Overflows
 
 ---
 
-![Stack Overflow](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Stack_Overflow_4.png/507px-Stack_Overflow_4.png){height=540px}
+![Buffer Overflow Setting Return Address](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Stack_Overflow_4.png/507px-Stack_Overflow_4.png){height=540px}
 
 NX Bit
 ------
