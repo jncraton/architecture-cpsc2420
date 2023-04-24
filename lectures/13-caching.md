@@ -156,7 +156,7 @@ Multiplexing
 
 ---
 
-![PCI Express slots](https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/PCIExpress.jpg/800px-PCIExpress.jpg)
+![PCI Express slots](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/PCI-E_%26_PCI_slots_on_DFI_LanParty_nF4_SLI-DR_20050531.jpg/640px-PCI-E_%26_PCI_slots_on_DFI_LanParty_nF4_SLI-DR_20050531.jpg)
 
 Bus
 ---
