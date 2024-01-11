@@ -49,7 +49,7 @@ Why architecture
 ----------------
 
 - Design better computers
-- Write faster code
-- Write smaller code
+- Write more efficient code
+- Write smaller programs
 - Reduce errors in computer systems
 - Improve debugging speed and accuracy
