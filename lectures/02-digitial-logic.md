@@ -141,7 +141,7 @@ Maintaining State
 Clocks
 ------
 
-- Allow hardware to operate without requiring input to change
+- Allow hardware to syncronize internal operations
 - Simply emits a regular, alternating signal
 
 Moore's Law
