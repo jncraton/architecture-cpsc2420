@@ -136,7 +136,7 @@ Maintaining State
 
 ---
 
-![SR Latch](https://upload.wikimedia.org/wikipedia/commons/9/92/SR_Flip-flop_Diagram.svg){height=240px}
+![SR Latch](https://upload.wikimedia.org/wikipedia/commons/c/c6/R-S_mk2.gif)
 
 Clocks
 ------
