@@ -58,7 +58,7 @@ Character Sets
 Unicode
 -------
 
-- 7 bits can represent all characters used in English
+- 7 bits can represent all characters in basic English
 - It is insufficient to handle other languages and uses (such as emojis)
 - The Unicode standard is able to handle these characters
 
@@ -89,6 +89,7 @@ Endianness
 
 - Some systems store high bytes first others store high bytes last
 - They are called big endian and little endian
+- Most modern systems are little endian
 
 ---
 
