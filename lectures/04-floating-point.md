@@ -1,6 +1,14 @@
 3 Data Representation
 =====================
 
+Integer Representation
+----------------------
+
+2³   2²  2¹  2⁰
+---  --- --- --- ---
+8    4   2   1
+1    0   0   1   = 9
+
 Multiplication
 --------------
 
