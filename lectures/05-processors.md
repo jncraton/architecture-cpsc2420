@@ -3,28 +3,6 @@
 4 Processors
 ============
 
-Von Neumann Architecture
-------------------------
-
-- Architecture used by almost all modern computers
-- A *stored program* resides in memory and is executed by a *processor*
-
-Components
-----------
-
-- A processing unit with ALU and registers
-- A control unit with program counter and instruction register
-- Memory storing instructions and data
-- Input and output mechanisms
-
----
-
-![Von Neumann Architecture](https://upload.wikimedia.org/wikipedia/commons/e/e5/Von_Neumann_Architecture.svg)
-
----
-
-[Computerphile video](https://www.youtube.com/watch?v=Ml3-kVYLNr8)
-
 Processor
 ---------
 
@@ -67,6 +45,24 @@ Programmable Logic
 
 - Instructions are read from memory and can be adjusted to run a multitude of operations
 
+Von Neumann Architecture
+------------------------
+
+- Architecture used by almost all modern computers
+- A *stored program* resides in memory and is executed by a *processor*
+
+Components
+----------
+
+- A processing unit with ALU and registers
+- A control unit with program counter and instruction register
+- Memory storing instructions and data
+- Input and output mechanisms
+
+---
+
+![Von Neumann Architecture](https://upload.wikimedia.org/wikipedia/commons/e/e5/Von_Neumann_Architecture.svg)
+
 Hierarchical Structure
 ----------------------
 
@@ -85,7 +81,7 @@ Central Units
 
 ---
 
-![Major Units](media/4-3.png){height=540px}
+![Major Units](media/4-3.png){height=540px}]
 
 Controller
 ----------
