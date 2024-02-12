@@ -61,7 +61,7 @@ Components
 
 ---
 
-![Von Neumann Architecture](https://upload.wikimedia.org/wikipedia/commons/e/e5/Von_Neumann_Architecture.svg)
+![Von Neumann Architecture](https://upload.wikimedia.org/wikipedia/commons/e/e5/Von_Neumann_Architecture.svg){height=540px}
 
 Hierarchical Structure
 ----------------------
