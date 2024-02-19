@@ -1,4 +1,7 @@
-- Exam 3/3 - No lab that day
+Course Updates
+--------------
+
+- Exam 3/1 during lab time
 - Review assignment posted
 - Presentation Dates
 - Lab questions?
