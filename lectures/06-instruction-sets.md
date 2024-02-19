@@ -187,7 +187,7 @@ Stalls
 
 ---
 
-![Bubble insertion](https://upload.wikimedia.org/wikipedia/commons/d/d0/Data_Forwarding_%28Two_Stage%29.svg){height=540px}
+![Bubble insertion](https://upload.wikimedia.org/wikipedia/commons/d/d0/Data_Forwarding_%28Two_Stage%29.svg){height=360px}
 
 Forwarding
 ----------
