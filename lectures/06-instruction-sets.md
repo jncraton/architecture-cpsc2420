@@ -106,7 +106,7 @@ Variable Length Instructions
 ----------------------------
 
 - Some instructions need fewer operands than others
-- It may be advantageous to use variable length instructions, but it is frequently preferable to use fixed length instructions
+- It may be advantageous to use variable length instructions for space efficiency
 - Fixed length instructions are much easier to decode in hardware
 
 Registers
