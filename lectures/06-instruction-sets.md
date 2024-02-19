@@ -12,7 +12,7 @@ Course Updates
 Necessary Operations
 --------------------
 
-- In order to compute any computable function, a CPU needs to support only a deceptively small number of operations
+- In order to compute any computable function, a CPU needs to support only a small number of operations
 - For example, `increment`, `decrement`, and `branch_if_not_zero` are sufficient
 
 Examples
@@ -100,7 +100,7 @@ Instruction Format
 
 ---
 
-![MIPS addi instruction](https://upload.wikimedia.org/wikipedia/commons/2/2a/Mips32_addi.svg){height=540px}
+![MIPS addi instruction](https://upload.wikimedia.org/wikipedia/commons/2/2a/Mips32_addi.svg){height=360px}
 
 Variable Length Instructions
 ----------------------------
