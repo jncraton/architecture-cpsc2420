@@ -8,7 +8,7 @@ Operands Per Instruction
 ------------------------
 
 - Halt requires none
-- Logical not requires 1
+- Bitwise `not` requires one
 - Add requires two
 - We can include an extra for the result destination
 
