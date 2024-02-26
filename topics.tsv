@@ -13,16 +13,15 @@ lecture	Instruction Sets
 lab	Emulator Control
 lecture	Operand Addressing and Exam Review
 lab	Midterm Exam
-lecture	Exam Summary and Assembly
+lecture	Microcode and Exam Summary
 lab	Presentations
 lecture	Assembly
 lab	Assembler
 lecture	Memory
+lab	Embedding Assembly
 lecture	Addressing
 lab	Emulator Memory
 lecture	Virtual Memory
 lab	Emulator IO
 lecture	Caching
-lab	Embedding Assembly
-lecture Final Exam Review
 lab	Presentations
