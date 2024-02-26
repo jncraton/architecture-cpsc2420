@@ -1,0 +1,28 @@
+type	name	reading	content
+lab	Intro
+lab	Environment Setup
+lecture	Digitital Logic	
+lab	Nand Game
+lecture	Data Representation
+lab	C Intro
+lecture	Floating Point
+lab	Floating Point
+lecture	Processors
+lab	Emulator Intro
+lecture	Instruction Sets
+lab	Emulator Control
+lecture	Operand Addressing and Exam Review
+lab	Midterm Exam
+lecture	Exam Summary and Assembly
+lab	Presentations
+lecture	Assembly
+lab	Assembler
+lecture	Memory
+lecture	Addressing
+lab	Emulator Memory
+lecture	Virtual Memory
+lab	Emulator IO
+lecture	Caching
+lab	Embedding Assembly
+lecture Final Exam Review
+lab	Presentations
