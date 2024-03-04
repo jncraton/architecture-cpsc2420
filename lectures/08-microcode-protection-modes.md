@@ -64,7 +64,7 @@ Mode register
 Privilege Levels
 -----------------
 
-- How many privilege should we have?
+- How many privilege levels should we have?
 - We need at least 2 in order to isolate application programs from the OS
 
 ---
