@@ -7,7 +7,7 @@ Central processors
 ------------------
 
 - Modern computers are distributed systems with many processors
-- main CPU, GPU, sound, wifi, cellular, etc
+- CPU, GPU, sound, wifi, cellular, etc
 - A "central" processor can be thought of as orchestrating the others
 
 CPU roles
