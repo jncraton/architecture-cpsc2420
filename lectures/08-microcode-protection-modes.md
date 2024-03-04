@@ -27,7 +27,7 @@ Protection and Privilege
 Processor Modes
 ---------------
 
-- Allow the process to change how instructions are handled
+- Change how instructions are handled
 - Some instructions may be unavailable
 - Some memory ranges may be unavailable
 - Other privileges may be adjusted
@@ -83,6 +83,56 @@ Microcode
 ---------
 
 - We can convert one set of complex instructions (macrocode) into simpler instructions run directly by the CPU (microcode)
+
+Array access example
+--------------------
+
+```c
+char* get_nth(char ** arr, long int n) {
+  return arr[n];
+}
+
+void _start() {
+  char * arr[2] = {"Hello ", "world!"};
+
+  write(1, get_nth(arr, 0), 7);
+  write(1, get_nth(arr, 1), 7);
+  exit(0);
+}
+```
+
+x64 Assembly
+
+```asm
+get_nth:
+	movq	(%rdi,%rsi,8), %rax
+	ret
+```
+
+movq
+----
+
+- Moves a quad word (64-bit) value to a register
+- x64 addressing modes add complexity
+- In this case, we are moving the value stored at:
+    -  rdi + rsi*8
+
+Microcode Generation
+--------------------
+
+CISC
+
+```asm
+movq	(%rdi,%rsi,8), %rax
+```
+
+Microcode
+
+```asm
+mul %rsi, 8, %tmp1
+add %tmp1, %rdi, %tmp2
+load %tmp2, %rax
+```
 
 Advantages
 ----------
