@@ -1,4 +1,4 @@
-personal_ws-1.1 en 66 
+personal_ws-1.1 en 70 
 ALU
 BJT
 CISC
@@ -13,6 +13,7 @@ Craton
 DeMorgan's
 EPROM
 Endianness
+Homebrew
 IC
 ISA
 KACE
@@ -47,6 +48,7 @@ lookaside
 lookups
 lor
 macrocode
+movq
 multiprogramming
 natively
 nearline
@@ -55,8 +57,10 @@ pinout
 pre
 prepending
 px
+rdi
 representable
 roundtrip
+rsi
 struct
 tunable
 utilitas
