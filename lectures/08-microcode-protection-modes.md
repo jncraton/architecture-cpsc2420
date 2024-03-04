@@ -82,7 +82,8 @@ Complex instruction sets
 Microcode
 ---------
 
-- We can convert one set of complex instructions (macrocode) into simpler instructions run directly by the CPU (microcode)
+- An intermediary layer between CPU hardware and the programmer-visible machine code
+- We can convert complex instructions into simpler instructions run directly by the CPU
 
 Array access example
 --------------------
