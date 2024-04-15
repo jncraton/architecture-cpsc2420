@@ -130,3 +130,13 @@ Address Space
 - We can only access as much memory as we have addresses
 - For 32-bit addresses, this is 2^32 words
 - Addresses often need to be stored themselves, so longer addresses than needed have a storage cost
+
+Input and Output
+----------------
+
+- We can attach devices to the system bus in addition to memories
+- These device could be accessed using loads and stores to particular addresses
+
+---
+
+![System Bus with I/O](https://upload.wikimedia.org/wikipedia/commons/6/68/Computer_system_bus.svg){height=540px}
