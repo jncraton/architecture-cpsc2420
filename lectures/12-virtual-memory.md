@@ -1,6 +1,10 @@
 11 Virtual Memory
 =================
 
+---
+
+![Motherboard](https://upload.wikimedia.org/wikipedia/commons/b/b7/Computer-motherboard.jpg){height=540px}
+
 Virtual Memory
 --------------
 
@@ -56,7 +60,9 @@ Holes
 
 ---
 
-Most systems generally just have one type of main physical memory. Why do we use virtual memory at all?
+Most systems generally just have one type of main physical memory. 
+
+Why do we use virtual memory at all?
 
 Benefits
 --------
