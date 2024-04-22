@@ -28,8 +28,8 @@ Multiple memory system
 - An MMU can connect memories with different properties (word size, etc) into a single unified address space
 - Memory requests are translated by the MMU and directed to the appropriate location in a physical memory
 
-Ideal Implementation
---------------------
+Example Implementation
+----------------------
 
 ```python
 if addr < 1000:
