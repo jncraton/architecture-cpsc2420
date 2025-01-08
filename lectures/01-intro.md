@@ -12,6 +12,7 @@ Introductions
 -------------
 
 - Name
+- Major(s)
 - Favorite thing you ate over break?
 
 Syllabus
