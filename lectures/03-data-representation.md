@@ -78,8 +78,23 @@ Unsigned Integers
 
 - The positional representation described supports only values greater than zero
 - It also suffers from integer overflow and underflow
-- [Example](https://repl.it/@jncraton/UnevenCraftyParallelport)
 
+---
+
+```c
+#include <stdio.h>
+
+int main(void) {
+	for (unsigned char i = 250; i >= 250; i++) {
+		printf("%d\n", i);
+	}
+
+	for (unsigned char i = 5; i <= 5; i--) {
+		printf("%d\n", i);
+	}
+  
+}
+```
 ---
 
 ![Odometer Overflow](https://upload.wikimedia.org/wikipedia/commons/5/53/Odometer_rollover.jpg)
