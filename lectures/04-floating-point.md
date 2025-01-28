@@ -119,7 +119,22 @@ Floating Point Range
 --------------------
 
 - Floating point numbers can occupy a range greater than a similarly sized integer with a loss of precision
-- [Example](https://repl.it/@jncraton/max-int-floating-point)
+
+Example
+-------
+
+```c
+#include <stdio.h>
+
+int main(void) {
+	float f = 16777210;
+
+	for (int i = 0; i < 10; i++) {
+		f += 1;
+		printf("%f\n", f);
+	}
+}
+```
 
 Special Floating Point Values
 -----------------------------
