@@ -3,6 +3,10 @@
 4 Processors
 ============
 
+---
+
+![Intel Core i9](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Intel_i9-14900KF_CPU.jpg/429px-Intel_i9-14900KF_CPU.jpg)
+
 Processor
 ---------
 
