@@ -81,7 +81,7 @@ Central Units
 
 ---
 
-![Major Units](media/4-3.png){height=540px}]
+![Major Units](media/4-3.png){height=540px}
 
 Controller
 ----------
