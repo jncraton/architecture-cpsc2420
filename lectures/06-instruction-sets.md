@@ -1,7 +1,7 @@
 Course Updates
 --------------
 
-- Exam 3/1 during lab time
+- Exam 2/26 during lab time
 - Review assignment posted
 - Presentation Dates
 - Lab questions?
