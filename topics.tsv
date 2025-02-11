@@ -26,4 +26,6 @@ lab	?
 lecture	IO
 lab	Emulator IO
 lecture	Caching
+lab	MatMul optimization
+lecture	Busses and interrupts
 lab	Presentations
