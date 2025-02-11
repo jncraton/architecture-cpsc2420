@@ -11,9 +11,9 @@ lecture	Processors
 lab	Emulator Intro
 lecture	Instruction Sets
 lab	Emulator Control
-lecture	Operand Addressing and Exam Review
-lab	Midterm Exam
-lecture	Microcode and Exam Summary
+lecture	Operand Addressing
+lab	Exam Summary
+lecture	Midterm Exam
 lab	Presentations
 lecture	Assembly
 lab	Assembler
