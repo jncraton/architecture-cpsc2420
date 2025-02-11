@@ -22,6 +22,8 @@ lab	Embedding Assembly
 lecture	Addressing
 lab	Emulator Memory
 lecture	Virtual Memory
+lab	?
+lecture	IO
 lab	Emulator IO
 lecture	Caching
 lab	Presentations
