@@ -120,7 +120,7 @@ Floating Point Registers
 ------------------------
 
 - Systems may have separate registers for different purposes
-- Floating point is on common example of this
+- Floating point is one common example of this
 
 Typical Use
 -----------
