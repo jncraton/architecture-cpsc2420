@@ -1,3 +1,9 @@
+Lab Tomorrow
+------------
+
+- Optional help/review sessions
+- Exam next Wednesday
+
 6 Operand Addressing and Instruction Representation
 ===================================================
 
