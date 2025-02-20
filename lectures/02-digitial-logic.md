@@ -149,5 +149,5 @@ Moore's Law
 
 - Number of transistors on an IC doubles every two years
 - First computers used <1000 discrete transistors
-- Modern consumer CPUs can use over 50 billion transistors (M1 Max)
-- Modern AI/ML wafers may include 2.6 trillion transistors (Cerebras WSE-2)
+- Modern consumer CPUs can use over 92 billion transistors (M3 Max)
+- Modern AI/ML wafers may include 4 trillion transistors (Cerebras WSE-3)
