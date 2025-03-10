@@ -16,16 +16,16 @@ lab	Review/Help Session?
 lecture	Midterm Exam
 lab	Presentations
 lecture	Assembly
-lab	Assembler
+lab	Assembler + Fibonacci
+lecture	Microcode and Protection
+lab	Assembler + Fibonacci
 lecture	Memory
 lab	Embedding Assembly
 lecture	Addressing
 lab	Emulator Memory
 lecture	Virtual Memory
-lab	?
-lecture	IO
 lab	Emulator IO
 lecture	Caching
 lab	MatMul optimization
-lecture	Busses and interrupts
+lecture	IO, Busses, and Interrupts
 lab	Presentations
