@@ -129,8 +129,8 @@ movq	(%rdi,%rsi,8), %rax
 Microcode
 
 ```asm
-mul %rsi, 8, %tmp1
-add %tmp1, %rdi, %tmp2
+mul  %rsi,  8,    %tmp1
+add  %tmp1, %rdi, %tmp2
 load %tmp2, %rax
 ```
 
@@ -161,6 +161,10 @@ Out-of-order Execution
 
 - Instructions can be run in different order than they come in
 - Results must be the same
+
+---
+
+![Zen 3 Execution Engines](media/zen3-execution-engines.png)
 
 Conditional Branches
 --------------------
