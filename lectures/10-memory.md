@@ -1,5 +1,3 @@
-Lab questions?
-
 9 Memory and Storage
 ====================
 
