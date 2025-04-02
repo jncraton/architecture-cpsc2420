@@ -40,6 +40,10 @@ Capacitors
 - When a voltage is applied, a charge gathers
 - Charge slowly discharges over time
 
+---
+
+![Capacitor Discharge](media/cap-discharge.png)
+
 Refresh
 -------
 
