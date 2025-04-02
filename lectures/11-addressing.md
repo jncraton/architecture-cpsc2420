@@ -17,7 +17,7 @@ Static RAM
 
 ---
 
-![SR latch using NOR gates](https://upload.wikimedia.org/wikipedia/commons/5/53/RS_Flip-flop_%28NOR%29.svg){height=540px}
+![SR Latch](https://upload.wikimedia.org/wikipedia/commons/c/c6/R-S_mk2.gif)
 
 SRAM Usage
 ----------
