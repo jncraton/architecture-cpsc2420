@@ -101,3 +101,14 @@ Set Associative Cache
 ---
 
 ![Set Associative](https://upload.wikimedia.org/wikipedia/commons/7/71/Set-Associative_Cache_Snehal_Img.png)
+
+---
+
+![AMD K8](https://upload.wikimedia.org/wikipedia/commons/1/11/Cache%2Chierarchy-example.svg){height=540px}
+
+x64
+-----
+
+- Cache lines are 64 bytes
+- Memory data bus is 64 bits
+- Memory is almost always read in 8 word bursts to fill a cache line
