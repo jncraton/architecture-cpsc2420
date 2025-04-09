@@ -51,6 +51,15 @@ Implementation
 - Use low bits as address in real memory
 - Page sizes must be powers of 2 for optimal performance
 
+---
+
+Address: 0x01234567
+
+Page Number     Offset
+-------------   ------
+First 20 bits   Remaining 12 bits
+0x01234         0x567
+
 Holes
 -----
 
