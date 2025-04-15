@@ -46,6 +46,7 @@ Multiplexing
 ------------
 
 - Pins are limited, and wider parallel connection are faster, so we reuse the same pins for communication
+
 14 Buses
 ========
 
