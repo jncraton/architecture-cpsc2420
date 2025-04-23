@@ -112,3 +112,91 @@ x64
 - Cache lines are 64 bytes
 - Memory data bus is 64 bits
 - Memory is almost always read in 8 word bursts to fill a cache line
+
+13 I/O
+======
+
+---
+
+In order to be useful, CPUs need to communicate with external devices.
+
+I/O Devices
+-----------
+
+- Keyboards
+- Mice
+- Displays
+- Speakers
+- Network
+
+---
+
+Communication
+------------
+
+- Data can be fed out of the CPU via special registers or instructions
+- Communication may be parallel or serial
+
+Serial Data
+-----------
+
+- A single wire is used to communication
+- Simple and uses only one pin on the chip
+
+---
+
+![ASCII "K" in RS232](https://upload.wikimedia.org/wikipedia/commons/b/b0/Rs232_oscilloscope_trace.svg){height=540px}
+
+Parallel Data
+-------------
+
+- Multiple wires are used for communication
+- Uses more pins, but is generally faster
+
+---
+
+![Parallel port pinout](https://upload.wikimedia.org/wikipedia/commons/e/e0/Parallel_port_pinouts.svg){height=540px}
+
+Multiplexing
+------------
+
+- Pins are limited, and wider parallel connections are faster, so we reuse the same pins for communication
+
+15 Interrupts
+============
+
+Polling
+-------
+
+- CPUs repeatedly fetch data in order to check if new data is available
+- Wastes CPU time
+- Doesn't scale to many devices
+
+---
+
+```c
+int main() {
+  while (!key_is_pressed());
+
+  // do something
+}
+```
+
+Interrupts
+-----------
+
+- Interrupt the CPU and cause it to jump to a new location
+- Avoids wasted cycles caused by polling
+- Similar to events in high-level languages
+
+---
+
+```c
+void key_has_been_pressed () {
+  ...
+}
+
+int main() {
+  on_key_press(&key_has_been_pressed);
+}
+```
