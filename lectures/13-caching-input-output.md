@@ -49,6 +49,8 @@ Cache Types
 - n-way set associative
 - Fully associative
 
+<!--
+
 Cache Replacement
 -----------------
 
@@ -59,6 +61,8 @@ Least recently used
 
 - An LRU eviction strategy is simple to understand
 - When a new item needs to be added to a cache, we remove the oldest item in terms of access time
+
+-->
 
 Implementation
 --------------
@@ -161,6 +165,13 @@ Multiplexing
 ------------
 
 - Pins are limited, and wider parallel connections are faster, so we reuse the same pins for communication
+
+Unified Memory
+--------------
+
+- The system uses one bus
+- Devices and memory share a single address space
+- From the CPU's perspective, access a device and accessing memory are the same operation
 
 15 Interrupts
 ============
