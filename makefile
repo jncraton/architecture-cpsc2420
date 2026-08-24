@@ -1,11 +1,13 @@
 SHELL := bash -O nullglob
 
-all: index.html syllabus.md syllabus.html syllabus.docx syllabus.txt syllabus.pdf env.html lectures/index.html examples/index.html
+all: index.html syllabus.md syllabus.html syllabus.docx syllabus.txt syllabus.pdf env.html lectures/index.html examples/index.html skill
 
-.PHONY: clean lectures
+.PHONY: clean lectures skill
 
 syllabus.md: syllabus-template.md head.md tail.md
-	markdown-pp $< -o $@
+	cp -f $< $@
+	sed -i -e "/head.md/{r head.md" -e "d}" $@
+	sed -i -e "/tail.md/{r tail.md" -e "d}" $@
 
 readme.md: syllabus.md
 	cp -f $< $@
@@ -14,10 +16,10 @@ syllabus.txt: syllabus.md
 	cp syllabus.md syllabus.txt
 
 syllabus.html: syllabus.md
-	pandoc -V lang=en --metadata pagetitle=Syllabus --standalone --css=style.css -o $@ $<
+	pandoc -V lang=en --metadata pagetitle=Syllabus --standalone --css=style.css --lua-filter=filters.lua -o $@ $<
 
-index.html: syllabus.md
-	pandoc -V lang=en --metadata pagetitle=Syllabus --standalone --css=style.css -o $@ $<
+index.html: syllabus.html
+	cp -f $< $@
 
 syllabus.docx: syllabus.md
 	pandoc -V lang=en --metadata pagetitle=Syllabus --reference-doc reference.docx -o $@ $<
@@ -58,6 +60,7 @@ lectures:
 
 spellcheck:
 	aspell --home-dir=. --check --dont-backup head.md
+	aspell --home-dir=. --check --dont-backup readme.md
 	aspell --home-dir=. --check --dont-backup tail.md
 	aspell --home-dir=. --check --dont-backup env.md
 	for f in lectures/*.md; do aspell --home-dir=. --check --dont-backup "$$f"; done
@@ -74,28 +77,30 @@ lectures/all-slides.html: lectures/all.md
 
 lectures/index.html: lectures lectures/all.html lectures/all-slides.html lectures/reveal.js
 	python3 gen_lecture_index.py
-	pandoc lectures/index.md -o $@
+	pandoc -V lang=en --metadata pagetitle=Syllabus --standalone --css=../style.css --lua-filter=filters.lua -o $@ lectures/index.md
 
 examples/index.html:
-	cd examples && tree -H '.' -L 1 --noreport --charset utf-8 -P "*" | sponge index.html
+	cd examples && tree -H '.' -L 2 --noreport --charset utf-8 -P "*" | sponge index.html
 
 lectures/reveal.js:
-	cd lectures && git clone --depth=1 --branch 5.2.0 https://github.com/hakimel/reveal.js
+	wget -qO- https://github.com/hakimel/reveal.js/archive/refs/tags/5.2.1.tar.gz | tar -xz -C lectures --transform='s|^reveal.js-5.2.1|reveal.js|'
 
 update:
 	wget -q -N https://raw.githubusercontent.com/jncraton/course-template/master/.gitignore \
+	           https://raw.githubusercontent.com/jncraton/course-template/master/.prettierrc.json \
 	           https://raw.githubusercontent.com/jncraton/course-template/master/head.tex \
 	           https://raw.githubusercontent.com/jncraton/course-template/master/makefile \
 	           https://raw.githubusercontent.com/jncraton/course-template/master/reference.docx \
-	           https://raw.githubusercontent.com/jncraton/course-template/master/requirements.txt \
 	           https://raw.githubusercontent.com/jncraton/course-template/master/runtime.md \
 	           https://raw.githubusercontent.com/jncraton/course-template/master/head.md \
 	           https://raw.githubusercontent.com/jncraton/course-template/master/tail.md \
 	           https://raw.githubusercontent.com/jncraton/course-template/master/env.md \
 	           https://raw.githubusercontent.com/jncraton/course-template/master/style.css \
+	           https://raw.githubusercontent.com/jncraton/course-template/master/filters.lua \
 	           https://raw.githubusercontent.com/jncraton/course-template/master/revealjs-template.html \
 	           https://raw.githubusercontent.com/jncraton/course-template/master/gen_dates.py \
 	           https://raw.githubusercontent.com/jncraton/course-template/master/gen_lecture_index.py \
+	           https://raw.githubusercontent.com/jncraton/course-template/master/gen_skill.py \
 	           https://raw.githubusercontent.com/jncraton/course-template/master/config.json
 
 	mkdir -p .github/workflows
@@ -108,7 +113,20 @@ update:
 
 	git add -f gen_lecture_index.py
 
+	# Add new .prettierrc.json
+	git add -f .prettierrc.json
+
+	# Remove old files if the exist
+	rm -f requirements.txt formats.md
+
 	make readme.md
+
+skill:
+	python3 gen_skill.py
+
+format:
+	npx prettier@3.6.2 --write style.css
+	pipx run --spec black==25.12.0 black gen_lecture_index.py gen_dates.py
 
 clean:
 	rm -rf pandoc*
@@ -120,6 +138,7 @@ clean:
 	rm -rf figures
 	rm -rf __pycache__
 	rm -f netlifyctl
+	rm -f course-assistant.skill
 	rm -rf revealjs
 	rm -rf lectures/reveal.js
 	rm -f readme-template.md
