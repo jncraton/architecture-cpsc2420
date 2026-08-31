@@ -1,19 +1,36 @@
 CPSC 2420 Computer Architecture
 ===============================
 
-About Me
---------
+## About Me
 
-Professor Craton
+---
 
-Anything you want to know?
+- Professor Craton
+- Father of two kids - Josiah (4) and Benji (10)
+- Married to Karin
+- We live in Anderson near campus
+
+## Academic Career
+
+- BS in Computer Engineering
+- MA in Higher Education and Student Development
+- MS in Computer Science
+
+## Professional Career
+
+- Software Engineer Team Lead at Genesys
+- Software Consultant
+
+---
+
+Anything you want to know about me?
 
 Introductions
 -------------
 
 - Name
 - Major(s)
-- Favorite thing you ate over break?
+- Favorite place you went over the summer?
 
 Syllabus
 --------
