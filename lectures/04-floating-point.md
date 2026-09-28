@@ -26,6 +26,10 @@ Decimal Multiplication
     ------
       3072
 
+---
+
+![Multiplication Table](https://upload.wikimedia.org/wikipedia/commons/3/3f/Multiplication_table_to_scale.svg){height=540px}
+
 Binary Multiplication
 ---------------------
 
