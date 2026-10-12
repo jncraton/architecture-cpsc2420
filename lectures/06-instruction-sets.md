@@ -1,11 +1,3 @@
-Course Updates
---------------
-
-- Exam 2/26 during lab time
-- Review assignment posted
-- Presentation Dates
-- Lab questions?
-
 5 Processor Types and Instruction Sets
 =====================================
 
