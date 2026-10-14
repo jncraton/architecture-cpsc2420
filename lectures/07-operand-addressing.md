@@ -1,7 +1,8 @@
 Lab this week
 ------------
 
-- Optional help/review sessions
+- No new lab
+- Optional help/review session
 - Exam on Monday, October 26th
 
 6 Operand Addressing and Instruction Representation
