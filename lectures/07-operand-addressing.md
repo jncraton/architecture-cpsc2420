@@ -78,6 +78,10 @@ Von Neumann Bottleneck
 - An instruction that accesses data memory must actually access memory twice
 - This can be mitigated partially by having many registers
 
+---
+
+![Harvard Architecture](https://upload.wikimedia.org/wikipedia/commons/3/3f/Harvard_architecture.svg){height=540px}
+
 Operand Encoding
 ----------------
 
