@@ -8,6 +8,18 @@ Central processors
 - CPU, GPU, sound, wifi, cellular, etc
 - A "central" processor can be thought of as orchestrating the others
 
+---
+
+![Intel 286 Die Shot](https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Intel_286_CPU_-_Die_shot_20100311.jpg/960px-Intel_286_CPU_-_Die_shot_20100311.jpg){height=540px}
+
+---
+
+![CPU](https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Cpu_1.jpg/960px-Cpu_1.jpg){height=540px}
+
+---
+
+![Motherboard](https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/A790GXH-128M-Motherboard.jpg/960px-A790GXH-128M-Motherboard.jpg){height=540px}
+
 CPU roles
 ---------
 
