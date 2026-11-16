@@ -21,7 +21,7 @@ Technology
 
 ---
 
-![Core Memory](https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/KL_CoreMemory.jpg/600px-KL_CoreMemory.jpg)
+![Core Memory](https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/KL_CoreMemory.jpg/960px-KL_CoreMemory.jpg){height=540px}
 
 Organization
 ------------
@@ -62,7 +62,7 @@ Memory Access
 
 ---
 
-![Tape library for nearline storage](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/StorageTek_Powderhorn_tape_library.jpg/360px-StorageTek_Powderhorn_tape_library.jpg)
+![Tape library for nearline storage](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/StorageTek_Powderhorn_tape_library.jpg/960px-StorageTek_Powderhorn_tape_library.jpg){height=540px}
 
 Permanence
 ----------
@@ -73,7 +73,7 @@ Permanence
 
 ---
 
-![UV erasable EPROM](https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/ST_Microelectronics_M27C256B_%282006%29.jpg/348px-ST_Microelectronics_M27C256B_%282006%29.jpg)
+![UV erasable EPROM](https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/ST_Microelectronics_M27C256B_%282006%29.jpg/960px-ST_Microelectronics_M27C256B_%282006%29.jpg){height=540px}
 
 Memory Hierarchy
 ---------------
@@ -93,7 +93,7 @@ Memory Hierarchy
 
 ---
 
-![CPU Memories](https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Separate_unified.png/380px-Separate_unified.png)
+![CPU Memories](https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Separate_unified.png/960px-Separate_unified.png){height=540px}
 
 Instruction and Data Memory
 ---------------------------
