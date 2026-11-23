@@ -24,7 +24,7 @@ Memory Management Unit
 
 ---
 
-![Virtual Memory System](https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/MMU_principle_updated.png/640px-MMU_principle_updated.png)
+![Virtual Memory System](https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/MMU_principle_updated.png/960px-MMU_principle_updated.png){height=540px}
 
 Multiple memory system
 ----------------------
@@ -186,11 +186,11 @@ Buffer Overflows
 
 ---
 
-![Stack](https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Stack_Overflow_3.png/419px-Stack_Overflow_3.png){height=540px}
+![Stack](https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Stack_Overflow_3.png/960px-Stack_Overflow_3.png){height=540px}
 
 ---
 
-![Buffer Overflow Setting Return Address](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Stack_Overflow_4.png/507px-Stack_Overflow_4.png){height=540px}
+![Buffer Overflow Setting Return Address](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Stack_Overflow_4.png/960px-Stack_Overflow_4.png){height=540px}
 
 NX Bit
 ------
